@@ -23,7 +23,7 @@ public class ProductTest {
     public void checkProductPrice() {
         // I am making this test to fail
         Product aProduct = new Product("1", "DELL MONITOR", 190.0);
-        Assert.assertEquals( 180.0, aProduct.getPrice(), 0.002);
+        Assert.assertEquals( 190.0, aProduct.getPrice(), 0.002);
     }
 
 }
